@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume Builder Form by Tayyaba Shahid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Static Resume Builder Form by Tayyaba Shahid</h1>
+        <form id ="Resume Form"></form>
+            <!-- Personal Information -->
+            <section>
+                <h2>Personal Information</h2>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+            </section>
+
+            <!-- Education -->
+            <section>
+                <h2>Education</h2>
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" name="degree" placeholder="Degree" required>
+
+                <label for="institution">Institution:</label>
+                <input type="text" id="institution" name="institution" placeholder="University/College" required>
+
+                <label for="gradYear">Graduation Year:</label>
+                <input type="number" id="gradYear" name="gradYear" placeholder="YYYY" required>
+            </section>
+
+            <!-- Work Experience -->
+            <section>
+                <h2>Experience</h2>
+                <legend>Experience</legend>
+           <label for="experience">Experience</label>
+           <textarea id="experience" name="experience" rows="4" required> </textarea> <br>
+
+            </section>
+
+            <!-- Skills -->
+            <section>
+                <h2>Skills</h2>
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" placeholder="List your skills here" rows="4"></textarea>
+            </section>
+
+            <button type="submit">Submit here</button>
+        </form>
+    </div>
+</body>
+</html>
